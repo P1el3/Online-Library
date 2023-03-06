@@ -1,0 +1,35 @@
+===Piele Mihai Teodor====
+=========311 CB==========
+=========READ ME=========
+
+trie.h
+    definire structurii trie cu elementele aferente necesare:
+        dim, reprezinta nr de elemente ale vectorului urmator
+        litera, reprezinta litera de la nodul curent
+        info, reprezinta informatia catre care pointeaza nodul
+        urm, vector cu noduri urmatoare
+    functie de initializare a triei
+    functie de eliberare a triei
+    functie de inserare in trie
+    functie de extragere din trie
+    functie de steregere a unei cifre din trie
+    functie de golire a unei trie
+    functie de gasire a sufixelor cuvintelor, care incep din nodul t
+
+trie.c
+    contine in plus fata de functiile din trie.h:
+    functia care creaza un nod nou
+    functia find_n_put care cauta dupa cuvintele care incep de la un anumit nod
+
+main.c
+    liniile(7-19)  contin structura Book, folosita pt memorarea datelor
+    liniile(21-45) contin functiile de prelucrarea datelor
+    liniile(47-54) contin functiile care ajuta la citirea din fisier
+    liniile(55-191)contin functiile de citire a unui anumit imput
+                    si sunt responsabile de realizarea taskurilor primite
+
+Puncte checker:
+        Total:135
+        Bonus:5
+
+    
